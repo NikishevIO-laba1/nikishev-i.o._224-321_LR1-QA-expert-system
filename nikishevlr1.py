@@ -107,10 +107,10 @@ class QA:
 
         # Задаётся вопрос
         print()
-        print(self.attributes)
-        print(self.questions_excluded)
-        print(self.questions_remaining)
-        print(f"{question_id}: {question['вопрос']}")
+        #print(self.attributes)
+        #print(self.questions_excluded)
+        #print(self.questions_remaining)
+        print(f"Вопрос №{question_id}: {question['вопрос']}")
         if 'выбор' in question['тип']:
 
             # Вывод ответов
